@@ -61,8 +61,19 @@
             letter-spacing: -0.5px;
         }
 
+        .error-image-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .error-main-img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            filter: drop-shadow(0 10px 15px rgba(27, 77, 62, 0.15));
+        }
+
         .error-code {
-            font-size: 5rem;
+            font-size: 4rem;
             font-weight: 800;
             color: #1b4d3e;
             line-height: 1;
@@ -131,6 +142,9 @@
                 <img src="assets/WriteHumanly.png" alt="WriteHumanly Logo" class="logo-img">
                 <span class="logo-text">WriteHumanly</span>
             </a>
+            <div class="error-image-container">
+                <img src="assets/WriteHumanly.png" alt="WriteHumanly Feature" class="error-main-img">
+            </div>
             <div class="error-code">404</div>
             <h1 class="error-title">Page Not Found</h1>
             <p class="error-description">The page you are looking for doesn't exist or has been moved. Checking your authentication status to redirect you...</p>
