@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - WriteHumanly</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <a href="../index.html" class="logo-group">
+                <img src="../assets/WriteHumanly.png" alt="WriteHumanly Logo" class="logo-img">
+                <span class="logo-text">WriteHumanly</span>
+            </a>
+            <h1>Welcome Back</h1>
+            <p class="auth-subtitle">Log in to access your WriteHumanly dashboard.</p>
+            
+            <div id="error-message" class="error-message"></div>
+
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required placeholder="you@example.com">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required placeholder="Your password">
+                </div>
+                <button type="submit" class="btn btn-primary">Log In</button>
+            </form>
+
+            <p class="auth-footer">
+                Don't have an account? <a href="../signup/index.html">Sign up</a>
+            </p>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
